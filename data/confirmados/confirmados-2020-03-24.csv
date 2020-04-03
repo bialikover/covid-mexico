@@ -251,7 +251,7 @@ N° Caso,Estado,Sexo,Edad,Fecha de Inicio de síntomas,Identificación de COVID-
 250,TABASCO,F,37,10/03/2020,confirmado,Estados Unidos,11/03/2020
 251,CIUDAD DE MÉXICO,M,47,14/03/2020,confirmado,España,16/03/2020
 252,CIUDAD DE MÉXICO,M,34,14/03/2020,confirmado,Francia,12/03/2020
-253,JALISCO,M,0,09/03/2020,confirmado,España,12/03/2020
+253,JALISCO,M,55,09/03/2020,confirmado,España,12/03/2020
 254,CIUDAD DE MÉXICO,F,40,18/03/2020,confirmado,Contacto,NA
 255,JALISCO,M,58,17/03/2020,confirmado,Contacto,NA
 256,BAJA CALIFORNIA SUR,M,48,16/03/2020,confirmado,Estados Unidos,14/03/2020
@@ -331,41 +331,79 @@ N° Caso,Estado,Sexo,Edad,Fecha de Inicio de síntomas,Identificación de COVID-
 330,QUERETARO,F,30,21/03/2020,confirmado,España,15/03/2020
 331,CAMPECHE,F,59,06/03/2020,confirmado,España,15/03/2020
 332,QUINTANA ROO,M,65,18/03/2020,confirmado,España,15/03/2020
-333,JALISCO,M,28,16/03/2020,confirmado,Estados Unidos,06/03/2020
-334,BAJA CALIFORNIA,M,30,19/03/2020,confirmado,Estados Unidos,09/03/2020
-335,ZACATECAS,M,28,18/03/2020,confirmado,España,15/03/2020
-336,TABASCO,M,30,13/03/2020,confirmado,Estados Unidos,11/03/2020
-337,QUINTANA ROO,M,60,17/03/2020,confirmado,España,15/03/2020
-338,QUINTANA ROO,M,46,15/03/2020,confirmado,Contacto,NA
-339,AGUASCALIENTES,M,18,19/03/2020,confirmado,España,16/03/2020
-340,QUINTANA ROO,F,12,15/03/2020,confirmado,Contacto,NA
-341,QUINTANA ROO,F,52,17/03/2020,confirmado,España,15/03/2020
-342,JALISCO,F,24,14/03/2020,confirmado,Contacto,NA
-343,JALISCO,M,19,16/03/2020,confirmado,España,16/03/2020
-344,MICHOACÁN,F,48,15/03/2020,confirmado,Contacto,15/03/2020
-345,MICHOACÁN,M,58,15/03/2020,confirmado,Contacto,15/03/2020
-346,QUINTANA ROO,M,44,14/03/2020,confirmado,Contacto,NA
-347,SAN LUIS POTOSÍ,M,37,19/03/2020,confirmado,Estados Unidos,17/03/2020
-348,SAN LUIS POTOSÍ,F,32,18/03/2020,confirmado,Estados Unidos,17/03/2020
-349,SAN LUIS POTOSÍ,M,38,18/03/2020,confirmado,Estados Unidos,17/03/2020
-350,MICHOACÁN,F,50,15/03/2020,confirmado,Contacto,15/03/2020
-351,MICHOACÁN,M,56,15/03/2020,confirmado,Contacto,15/03/2020
-352,SAN LUIS POTOSÍ,M,70,15/03/2020,confirmado,Contacto,NA
-353,BAJA CALIFORNIA,M,51,21/03/2020,confirmado,Contacto,NA
-354,GUERRERO,F,36,17/03/2020,confirmado,Contacto,NA
-355,QUINTANA ROO,F,21,18/03/2020,confirmado,Contacto,18/03/2020
-356,QUINTANA ROO,F,19,11/03/2020,confirmado,Estados Unidos,09/03/2020
-357,QUINTANA ROO,M,48,19/03/2020,confirmado,Contacto,13/03/2020
-358,TAMAULIPAS,M,29,20/03/2020,confirmado,Contacto,NA
-359,OAXACA,F,34,20/03/2020,confirmado,Francia,17/03/2020
-360,NUEVO LEÓN,F,30,17/03/2020,confirmado,Contacto,NA
-361,NUEVO LEÓN,M,55,18/03/2020,confirmado,Contacto,NA
-362,NUEVO LEÓN,M,32,15/03/2020,confirmado,Contacto,NA
-363,NUEVO LEÓN,M,35,17/03/2020,confirmado,Estados Unidos,15/03/2020
-364,NUEVO LEÓN,M,39,14/03/2020,confirmado,Contacto,13/03/2020
-365,CIUDAD DE MÉXICO,M,77,16/03/2020,confirmado,Contacto,NA
-366,CIUDAD DE MÉXICO,F,45,20/03/2020,confirmado,Contacto,NA
-367,CIUDAD DE MÉXICO,M,52,19/03/2020,confirmado,Contacto,NA
+333,PUEBLA,M,29,13/03/2020,confirmado,Contacto,NA
+334,PUEBLA,M,33,13/03/2020,confirmado,Estados Unidos,12/03/2020
+335,JALISCO,M,28,16/03/2020,confirmado,Estados Unidos,06/03/2020
+336,PUEBLA,F,49,14/03/2020,confirmado,España,04/03/2020
+337,BAJA CALIFORNIA,M,30,19/03/2020,confirmado,Estados Unidos,09/03/2020
+338,ZACATECAS,M,28,18/03/2020,confirmado,España,15/03/2020
+339,CIUDAD DE MÉXICO,M,60,18/03/2020,confirmado,Contacto,NA
+340,CIUDAD DE MÉXICO,M,38,13/03/2020,confirmado,Contacto,NA
+341,CIUDAD DE MÉXICO,M,37,15/03/2020,confirmado,Contacto,16/03/2020
+342,PUEBLA,F,28,15/03/2020,confirmado,Estados Unidos,17/03/2020
+343,TABASCO,M,30,13/03/2020,confirmado,Estados Unidos,11/03/2020
+344,QUINTANA ROO,M,60,17/03/2020,confirmado,España,15/03/2020
+345,QUINTANA ROO,M,46,15/03/2020,confirmado,Contacto,NA
+346,AGUASCALIENTES,M,18,19/03/2020,confirmado,España,16/03/2020
+347,QUINTANA ROO,F,12,15/03/2020,confirmado,Contacto,NA
+348,QUINTANA ROO,F,52,17/03/2020,confirmado,España,15/03/2020
+349,QUINTANA ROO,M,16,13/03/2020,confirmado,Contacto,NA
+350,JALISCO,F,24,14/03/2020,confirmado,Contacto,NA
+351,JALISCO,M,19,16/03/2020,confirmado,España,16/03/2020
+352,MICHOACÁN,F,48,15/03/2020,confirmado,Contacto,15/03/2020
+353,MICHOACÁN,M,58,15/03/2020,confirmado,Contacto,15/03/2020
+354,QUINTANA ROO,M,44,14/03/2020,confirmado,Contacto,NA
+355,SAN LUIS POTOSÍ,M,37,19/03/2020,confirmado,Estados Unidos,17/03/2020
+356,SAN LUIS POTOSÍ,F,32,18/03/2020,confirmado,Estados Unidos,17/03/2020
+357,SAN LUIS POTOSÍ,M,38,18/03/2020,confirmado,Estados Unidos,17/03/2020
+358,MICHOACÁN,F,50,15/03/2020,confirmado,Contacto,15/03/2020
+359,MICHOACÁN,M,56,15/03/2020,confirmado,Contacto,15/03/2020
+360,SAN LUIS POTOSÍ,M,70,15/03/2020,confirmado,Contacto,NA
+361,GUANAJUATO,F,20,15/03/2020,confirmado,España,16/03/2020
+362,GUANAJUATO,F,32,16/03/2020,confirmado,España,16/03/2020
+363,PUEBLA,F,39,18/03/2020,confirmado,Estados Unidos,13/03/2020
+364,NUEVO LEÓN,F,63,13/03/2020,confirmado,Francia,14/03/2020
+365,BAJA CALIFORNIA,M,51,21/03/2020,confirmado,Contacto,NA
+366,GUERRERO,F,36,17/03/2020,confirmado,Contacto,NA
+367,QUINTANA ROO,F,21,18/03/2020,confirmado,Estados Unidos,18/03/2020
+368,QUINTANA ROO,F,19,11/03/2020,confirmado,Estados Unidos,09/03/2020
+369,QUINTANA ROO,M,48,19/03/2020,confirmado,Contacto,13/03/2020
+370,TAMAULIPAS,M,29,20/03/2020,confirmado,Contacto,NA
+371,OAXACA,F,34,20/03/2020,confirmado,Francia,17/03/2020
+372,NUEVO LEÓN,F,30,17/03/2020,confirmado,Contacto,NA
+373,NUEVO LEÓN,M,55,18/03/2020,confirmado,Contacto,NA
+374,NUEVO LEÓN,M,32,15/03/2020,confirmado,Contacto,NA
+375,NUEVO LEÓN,M,35,17/03/2020,confirmado,Estados Unidos,15/03/2020
+376,NUEVO LEÓN,M,39,14/03/2020,confirmado,Contacto,13/03/2020
+377,CIUDAD DE MÉXICO,M,77,16/03/2020,confirmado,Contacto,NA
+378,CIUDAD DE MÉXICO,F,45,20/03/2020,confirmado,Contacto,NA
+379,NUEVO LEÓN,M,37,17/03/2020,confirmado,España,18/03/2020
+380,CIUDAD DE MÉXICO,M,52,19/03/2020,confirmado,Contacto,NA
+381,NUEVO LEÓN,M,40,11/03/2020,confirmado,Estados Unidos,09/03/2020
+382,NUEVO LEÓN,F,66,19/03/2020,confirmado,Contacto,NA
+383,NUEVO LEÓN,M,20,15/03/2020,confirmado,Estados Unidos,14/03/2020
+384,NUEVO LEÓN,M,21,14/03/2020,confirmado,España,15/03/2020
+385,NUEVO LEÓN,F,24,17/03/2020,confirmado,Estados Unidos,16/03/2020
+386,NUEVO LEÓN,M,42,13/03/2020,confirmado,Estados Unidos,10/03/2020
+387,YUCATÁN,M,63,08/03/2020,confirmado,Contacto,NA
+388,NUEVO LEÓN,F,27,20/03/2020,confirmado,Estados Unidos,18/03/2020
+389,NUEVO LEÓN,M,28,14/03/2020,confirmado,Estados Unidos,15/03/2020
+390,NUEVO LEÓN,M,30,15/03/2020,confirmado,Estados Unidos,09/03/2020
+391,PUEBLA,F,76,17/03/2020,confirmado,Estados Unidos,20/03/2020
+392,CIUDAD DE MÉXICO,F,61,16/03/2020,confirmado,Italia,12/03/2020
+393,NUEVO LEÓN,F,27,09/03/2020,confirmado,Italia,07/03/2020
+394,YUCATÁN,M,38,08/03/2020,confirmado,España,04/03/2020
+395,GUERRERO,F,74,08/03/2020,confirmado,España,04/03/2020
+396,GUANAJUATO,F,56,16/03/2020,confirmado,Francia,17/03/2020
+397,GUANAJUATO,F,53,16/03/2020,confirmado,Francia,17/03/2020
+398,GUANAJUATO,F,48,21/03/2020,confirmado,Francia,17/03/2020
+399,MICHOACÁN,M,49,15/03/2020,confirmado,España,15/03/2020
+400,YUCATÁN,M,28,19/03/2020,confirmado,Francia,15/03/2020
+401,YUCATÁN,F,30,19/03/2020,confirmado,Francia,18/03/2020
+402,YUCATÁN,F,40,14/03/2020,confirmado,Contacto,NA
+403,CIUDAD DE MÉXICO,M,38,10/03/2020,confirmado,Contacto,NA
+404,CIUDAD DE MÉXICO,M,64,15/03/2020,confirmado,Francia,11/03/2020
+405,CHIHUAHUA,F,18,21/03/2020,confirmado,España,18/03/2020
 "Fuente: SINAVE/DGE/InDRE F: Femenino M: Masculino
 *Recuperado al dar negativo en su muestra a los 14 días de seguimiento. *Red Nacional de Laboratorios de Salud Pública
-Corte: 23 de Marzo del 2020 a las 13:00 horas",,,,,,,
+Corte: 24 de Marzo del 2020 a las 13:00 horas",,,,,,,
